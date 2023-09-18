@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="./utils/simplyCountdown.theme.default.css">
+  <script src="./utils/simplyCountdown.min.js"></script>
+</head>
+<body>
+  <section id="hero" class="hero p-3 mx-auto text-center text-white d-flex justify-content-center align-items-center">
+   <main>
+    <h3>Kepada Bapak/Ibu/Saudara/i</h3>
+    <h1>Suhebi & Suhebiah</h1>
+    <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+    <div class="simply-countdown"></div>
+    <a href="#main" class="btn btn-bg">lihat undangan</a>
+   </main>
+  </section>
+  <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Wedding</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My Wedding</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="navbar-nav ms-auto text-center">
+            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link" href="#info">INFO</a>
+            <a class="nav-link" href="#story">STORY</a>
+            <a class="nav-link" href="#rsvp">RSVP</a>
+            <a class="nav-link" href="#gifts">GIFTS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center mt-2">
+          <h2>Acara Pernikahan</h2>
+          <h3>Diselenggarakan pada Sabtu, 30 September 2023</h3>
+          <p>Oleh karena itu, kami sangat mengharapkan kehadiran bapak/ibu/saudara/i pada acara pernikahan kami.</p>
+        </div>
+      </div>
+      <div class="row couple">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-8 text-end">
+              <h3>Suhebi</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero nisi tempore iusto odio rem.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="col-4">
+              <img src="./img/nana.webp" alt="suhebi" class="img-responsive rounded-circle w-100">
+            </div>
+          </div>
+        </div>
+        <span class="heart">
+          <i class="bi bi-suit-heart-fill"></i>
+        </span>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-4">
+              <img src="./img/nana.webp" alt="suhebiah" class="img-responsive rounded-circle w-100">
+            </div>
+            <div class="col-8">
+              <h3>Suhebiah</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero nisi tempore iusto odio rem.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="info pt-5 pb-5" id="info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h2>Informasi Acara</h2>
+          <p class="alamat">Alamat: Gedung Novotel, Bukittingi Sumatera Barat</p>
+          <a href="" target="_blank" class="btn btn-light btn-sm">Lokasi pesta</a>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-5 col-10 mt-3">
+          <div class="card text-center text-bg-light">
+            <div class="card-header">
+              Akad Nikah
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>08.00 WIB s.d 10.00 WIB</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Minggu, 30 September 2023</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyukan seluruh prosesi
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3">
+          <div class="card text-center text-bg-light">
+            <div class="card-header">
+              Resepsi
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock d-block"></i>
+                  <span>10.00 WIB s.d selesai</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3 d-block"></i>
+                  <span>Minggu, 30 September 2023</span>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              Saat resepsi diharapkan tamu undangan untuk memasang masker
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="story mt-5 mb-5" id="story">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h4>Bagaimana cinta kami bersemi?</h4>
+          <h2>Cerita kami</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cupiditate consequatur sed animi corporis assumenda porro repudiandae eveniet laudantium magni architecto veniam, ipsam quasi. Vitae?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="timeline pt-3 pb-3">
+            <li class="mb-5">
+              <div class="timeline-image"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Pertama bertemu</h3>
+                  <h3>10 Januari 2022</h3>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inv mb-5">
+              <div class="timeline-image"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Pertama bertemu</h3>
+                  <h3>10 Januari 2022</h3>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum.</p>
+                </div>
+              </div>
+            </li>
+            <li class="mb-5">
+              <div class="timeline-image"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Pertama bertemu</h3>
+                  <h3>10 Januari 2022</h3>
+                </div>
+                <div class="timeline-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h4>Memori kisah kami</h4>
+          <h2>Gallery</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox"  data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="./img/nana.webp" data-toggle="lightbox" data-gallery="example-gallery">
+            <img src="./img/nana.webp" alt="" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script>
+    simplyCountdown('.simply-countdown', {
+      year: 2023, 
+      month: 9, 
+      day: 30, 
+      words: {
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+    })
+  </script>
+  <script>
+    const navBar = document.querySelector('.mynavbar');
+    const offcanvasNavbar = document.getElementById('offcanvasNavbar')
+    offcanvasNavbar.addEventListener('hidden.bs.offcanvas', () => {
+      navBar.style.overflow = "hidden";
+    });
+    offcanvasNavbar.addEventListener('show.bs.offcanvas', () => {
+      navBar.style.overflow = "visible";
+    });
+
+  </script>
+</body>
+</html>
