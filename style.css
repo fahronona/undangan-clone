@@ -187,10 +187,61 @@ div.couple {
 }
 
 .gallery {
-  background-color: rgb(216, 181, 249);
+  background-color: var(--pink-default);
   padding: 70px 0;
 }
 
+.konfirmasi .btn {
+  background-color: var(--pink-default);
+  border: 1px solid var(--pink-default);
+  margin-top: 15px;
+  color: white;
+}
+
+.konfirmasi .btn:hover {
+  background-color: white;
+  color: var(--pink-default);
+}
+
+footer {
+  background-color: var(--pink-default);
+  color: white;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block
+}
+
+footer a {
+  text-decoration: none;
+}
+
+div.audio-icon-wrapper {
+  position: fixed;
+  line-height: 0;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  mix-blend-mode: difference;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+div.rotate {
+  animation: rotating 4s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and (max-width: 768px){
   .mynavbar {
