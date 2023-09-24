@@ -17,7 +17,7 @@
   <section id="hero" class="hero mx-auto text-center text-white d-flex justify-content-center align-items-center">
    <main>
     <h3>Kepada <span class="alamat-undangan"></span>,</h3>
-    <h2 class="mt-5">Suhebi & Suhebiah</h2>
+    <h2 class="mt-5">Masaki Suda & Nana Komatsu</h2>
     <p>Akan melangsungkan resepsi pernikahan dalam:</p>
     <div class="simply-countdown"></div>
     <a href="#home" class="btn btn-bg btn-open">lihat undangan</a>
@@ -60,12 +60,12 @@
         <div class="col-lg-6">
           <div class="row">
             <div class="col-8 text-end">
-              <h3>Suhebi</h3>
+              <h3>Masaki</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero nisi tempore iusto odio rem.</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             </div>
             <div class="col-4">
-              <img src="./img/nana.webp" alt="suhebi" class="img-responsive rounded-circle w-100">
+              <img src="./img/Masaki_suda.jpg" alt="suhebi" class="img-responsive rounded-circle w-100">
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
               <img src="./img/nana.webp" alt="suhebiah" class="img-responsive rounded-circle w-100">
             </div>
             <div class="col-8">
-              <h3>Suhebiah</h3>
+              <h3>Nana</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero nisi tempore iusto odio rem.</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             </div>
@@ -162,7 +162,7 @@
         <div class="col">
           <ul class="timeline pt-3 pb-3">
             <li class="mb-5">
-              <div class="timeline-image"></div>
+              <div class="timeline-image" style="background-image: url('./img/unand.jpg')"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h3>Pertama bertemu</h3>
@@ -174,11 +174,11 @@
               </div>
             </li>
             <li class="timeline-inv mb-5">
-              <div class="timeline-image"></div>
+              <div class="timeline-image" style="background-image: url('./img/cafe.jpg')"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h3>Pertama bertemu</h3>
-                  <h3>10 Januari 2022</h3>
+                  <h3>Mulai dekat</h3>
+                  <h3>07 Agustus 2023</h3>
                 </div>
                 <div class="timeline-body">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum.</p>
@@ -186,11 +186,11 @@
               </div>
             </li>
             <li class="mb-5">
-              <div class="timeline-image"></div>
+              <div class="timeline-image" style="background-image: url('./img/married.jpg')"></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h3>Pertama bertemu</h3>
-                  <h3>10 Januari 2022</h3>
+                  <h3>Memutuskan untuk menikah</h3>
+                  <h3>30 September 2023</h3>
                 </div>
                 <div class="timeline-body">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum.</p>
@@ -471,6 +471,20 @@
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
   })();
+</script>
+<script>
+  const bukaUndangan = document.querySelector('.btn-open');
+  document.documentElement.addEventListener('click', () => {
+      document.documentElement.requestFullscreen();
+  });
+
+  document.documentElement.addEventListener('dblclick', () => {
+    if(document.fullscreenElement){
+      document.exitFullscreen();
+    }
+  })
+
+
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
